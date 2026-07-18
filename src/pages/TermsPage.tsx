@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Seo from '../components/Seo';
 
 export default function TermsPage() {
@@ -136,8 +137,8 @@ export default function TermsPage() {
             relevant agreement — for example, a material breach that is not remedied, or continued
             non-payment. On termination, the customer pays for work completed up to the termination
             date, and each party returns or deletes the other’s confidential material where
-            requested. Our <a href="/refund-policy">Refund and Cancellation Policy</a> explains how
-            cancellations and refunds are handled in practice.
+            requested. Our <Link to="/refund-policy">Refund and Cancellation Policy</Link> explains
+            how cancellations and refunds are handled in practice.
           </p>
 
           <h2>13. Governing law</h2>
