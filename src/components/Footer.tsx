@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© {year} Apploom Technologies. All rights reserved.</p>
+          <p>© {year} Apploom Technologies LLC. All rights reserved.</p>
           <p>Dubai, United Arab Emirates · info@apploom.ae</p>
         </div>
       </div>
